@@ -2,7 +2,7 @@
   "name": "medical",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Vov4ukz53/medical/",
+  "homepage": "https://vov4ukz53.github.io/medical/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",

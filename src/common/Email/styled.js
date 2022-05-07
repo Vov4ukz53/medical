@@ -8,6 +8,6 @@ export const Link = styled.a`
   transition: color .3s;
 
   &:hover{
-    color: ${({theme})=> theme.colors.darkTangerine}
+    color: ${({ theme }) => theme.colors.darkTangerine}
   }
 `;

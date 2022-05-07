@@ -5,8 +5,6 @@ import { ReactComponent as Linkedin } from "./icons/linkedin.svg";
 
 export const Wrapper = styled.ul`
   display: inline-flex;
-  align-items: center;
-  height: 40px;
   margin: 0px;
   padding: 0px 20px 0px 0px;
 `;

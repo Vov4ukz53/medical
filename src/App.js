@@ -1,8 +1,8 @@
-
+import { Header } from "./features/header";
 
 function App() {
   return (
-    <p>nanana</p>
+    <Header />
   )
 };
 

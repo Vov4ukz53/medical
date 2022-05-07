@@ -1,10 +1,12 @@
 export const theme = {
   colors: {
     white: "#FFFFFF",
-    blue: "#4FA4EC",
-    crimson: "#DC143C",
+    gray: "#7D7D7D",
+    celadonBlue: "#0E77AF",
+    darkTangerine: "#FBA518",
   },
   breakpoints: {
     mobile: "767px",
+    tabletLandscape: "1024px",
   },
 };

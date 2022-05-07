@@ -10,6 +10,6 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     font-family: 'Asap', sans-serif;
-    
+    font-size: 16px;
   }
 `;

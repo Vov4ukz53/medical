@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Body = styled.div`
+  position: relative;
+  z-index: 5;
   background: ${({ theme }) => theme.colors.celadonBlue};
 `;
 

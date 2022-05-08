@@ -7,7 +7,7 @@ export const Wrapper = styled.ul`
   margin: 0px 58px 0px 0px;
   padding: 0px;
   list-style: none;
-  transition: transform .4s;
+  transition: transform .3s;
 
   @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
     display: block;

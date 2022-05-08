@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   display: flex;
 
   @media(max-width: ${({theme})=> theme.breakpoints.desktops}){
-    margin-left: 30px;
+    margin-right: 45px;
   }
 `;
 

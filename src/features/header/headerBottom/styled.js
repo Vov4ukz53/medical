@@ -14,15 +14,11 @@ export const Content = styled.div`
 export const Link = styled.a`
   display: flex;
   flex: 1 1 auto;
-
-  @media(max-width: ${({theme})=> theme.breakpoints.desktops}){
-    flex: 0 0 50px;
-  }
 `;
 
 export const LogoIcon = styled(Logo)`
   @media(max-width: ${({theme})=> theme.breakpoints.desktops}){
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 `;

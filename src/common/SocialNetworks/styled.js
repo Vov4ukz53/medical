@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as Facebook } from "./icons/facebook.svg";
 import { ReactComponent as Twitter } from "./icons/twitter.svg";
 import { ReactComponent as Linkedin } from "./icons/linkedin.svg";
@@ -16,10 +16,21 @@ export const Item = styled.li`
   &:not(:last-child){
     margin-right: 21px;
   }
+
+  ${({ big }) => big && css`
+    &:not(:last-child){
+      margin-right: 33px;
+    }
+  `}
 `;
 
 export const FacebookIcon = styled(Facebook)`
   transition: transform .3s;
+  
+  ${({ big }) => big && css`
+    width: 40px;
+    height: 40px;
+  `}
 
   &:hover{
     transform: scale(1.2);
@@ -29,6 +40,11 @@ export const FacebookIcon = styled(Facebook)`
 export const TwitterIcon = styled(Twitter)`
   transition: transform .3s;
 
+  ${({ big }) => big && css`
+    width: 40px;
+    height: 40px;
+  `}
+
   &:hover{
     transform: scale(1.2);
   }          
@@ -36,6 +52,11 @@ export const TwitterIcon = styled(Twitter)`
 
 export const LinkedinkIcon = styled(Linkedin)`
   transition: transform .3s;
+
+  ${({ big }) => big && css`
+    width: 40px;
+    height: 40px;
+  `}
 
   &:hover{
     transform: scale(1.2);

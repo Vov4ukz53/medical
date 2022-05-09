@@ -6,20 +6,20 @@ import {
   Item,
 } from "./styled";
 
-export const SocialNetworks = () => {
+export const SocialNetworks = ({ footerTop }) => {
   const socialNetworksList = [
-    <FacebookIcon />,
-    <TwitterIcon />,
-    <LinkedinkIcon />
+    <FacebookIcon big={footerTop} />,
+    <TwitterIcon big={footerTop} />,
+    <LinkedinkIcon big={footerTop} />
   ];
 
   return (
-    <Wrapper>
+    <Wrapper >
       {
         socialNetworksList.map((item, index) => {
           return (
-            <Item key={index}>
-              <a href="#" alt="">
+            <Item big={footerTop} key={index}>
+              <a href="https://www.google.com/" alt="">
                 {item}
               </a>
             </Item>

@@ -1,8 +1,13 @@
+import { Footer } from "./features/footer";
 import { Header } from "./features/header";
 
 function App() {
   return (
-    <Header />
+    <>
+      <Header />
+      <div>asd</div>
+      <Footer />
+    </>
   )
 };
 

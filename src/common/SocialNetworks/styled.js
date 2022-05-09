@@ -30,6 +30,11 @@ export const FacebookIcon = styled(Facebook)`
   ${({ big }) => big && css`
     width: 40px;
     height: 40px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+      width: 25px;
+      height: 25px;
+    }
   `}
 
   &:hover{
@@ -43,6 +48,11 @@ export const TwitterIcon = styled(Twitter)`
   ${({ big }) => big && css`
     width: 40px;
     height: 40px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+      width: 25px;
+      height: 25px;
+    }
   `}
 
   &:hover{
@@ -56,6 +66,11 @@ export const LinkedinkIcon = styled(Linkedin)`
   ${({ big }) => big && css`
     width: 40px;
     height: 40px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+      width: 25px;
+      height: 25px;
+    }
   `}
 
   &:hover{

@@ -25,7 +25,7 @@ export const Navigation = () => {
       </nav>
       <Burger onClick={() => setOpen(!open)}>
         {
-          open ? <StyledBurger /> : <CloseBurger />
+          open ? <CloseBurger /> : <StyledBurger />
         }
       </Burger>
     </>

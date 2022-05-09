@@ -15,7 +15,7 @@ export const Wrapper = styled.ul`
     top: 40px;
     left: 0px;
     width: 100%;
-    transform: ${({ open }) => open ? "translatey(-150%)" : "translatey(0%)"};
+    transform: ${({ open }) => open ? "translatey(0%)" : "translatey(-150%)"};
     text-align: center;
     padding: 20px;
     overflow: auto;

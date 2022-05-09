@@ -8,9 +8,9 @@ import {
 
 export const SocialNetworks = ({ footerTop }) => {
   const socialNetworksList = [
-    <FacebookIcon big={footerTop} />,
-    <TwitterIcon big={footerTop} />,
-    <LinkedinkIcon big={footerTop} />
+    <FacebookIcon big={footerTop ? 1 : 0} />,
+    <TwitterIcon big={footerTop ? 1 : 0} />,
+    <LinkedinkIcon big={footerTop ? 1 : 0} />
   ];
 
   return (
@@ -18,7 +18,7 @@ export const SocialNetworks = ({ footerTop }) => {
       {
         socialNetworksList.map((item, index) => {
           return (
-            <Item big={footerTop} key={index}>
+            <Item big={footerTop ? 1 : 0} key={index}>
               <a href="https://www.google.com/" alt="">
                 {item}
               </a>

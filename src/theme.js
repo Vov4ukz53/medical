@@ -5,6 +5,11 @@ export const theme = {
     celadonBlue: "#0E77AF",
     celadonBlueOpacity:"#0e77afed",
     darkTangerine: "#FBA518",
+    quartz: "#4A4A4A",
+    jet: "#363636",
+    carnelian: "#B4141B",
+    carmine: "#920c12",
+    eerieBlack: "#191A1A"
   },
   breakpoints: {
     mobile: "767px",

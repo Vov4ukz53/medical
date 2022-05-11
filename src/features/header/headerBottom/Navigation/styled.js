@@ -3,6 +3,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai"
 
 export const Wrapper = styled.ul`
+  position: relative;
+  z-index: 20;
   display: flex;
   margin: 0px 58px 0px 0px;
   padding: 0px;
@@ -53,6 +55,7 @@ export const Link = styled.a`
 
 export const Burger = styled.div`
   position: absolute;
+  z-index: 20;
   top: 60px;
   right: 20px;
   display: none;

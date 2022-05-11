@@ -26,6 +26,10 @@ export const Item = styled.li`
 
 export const FacebookIcon = styled(Facebook)`
   transition: transform .3s;
+
+  &:hover{
+    transform: scale(1.2);
+  } 
   
   ${({ big }) => big && css`
     width: 40px;
@@ -35,16 +39,16 @@ export const FacebookIcon = styled(Facebook)`
       width: 25px;
       height: 25px;
     }
-  `}
-
-  &:hover{
-    transform: scale(1.2);
-  } 
+  `} 
 `;
 
 export const TwitterIcon = styled(Twitter)`
   transition: transform .3s;
 
+  &:hover{
+    transform: scale(1.2);
+  }   
+
   ${({ big }) => big && css`
     width: 40px;
     height: 40px;
@@ -53,16 +57,16 @@ export const TwitterIcon = styled(Twitter)`
       width: 25px;
       height: 25px;
     }
-  `}
-
-  &:hover{
-    transform: scale(1.2);
-  }          
+  `}       
 `;
 
 export const LinkedinkIcon = styled(Linkedin)`
   transition: transform .3s;
 
+  &:hover{
+    transform: scale(1.2);
+  }    
+
   ${({ big }) => big && css`
     width: 40px;
     height: 40px;
@@ -71,9 +75,5 @@ export const LinkedinkIcon = styled(Linkedin)`
       width: 25px;
       height: 25px;
     }
-  `}
-
-  &:hover{
-    transform: scale(1.2);
-  }        
+  `}    
 `;

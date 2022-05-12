@@ -9,7 +9,7 @@ export const theme = {
     jet: "#363636",
     carnelian: "#B4141B",
     carmine: "#920c12",
-    eerieBlack: "#191A1A"
+    eerieBlack: "#191A1A",
   },
   breakpoints: {
     mobile: "767px",

@@ -1,11 +1,12 @@
-import { Footer } from "./features/footer";
 import { Header } from "./features/header";
+import { SliderSection } from "./features/sliderSection";
+import { Footer } from "./features/footer";
 
 function App() {
   return (
     <>
       <Header />
-      <div>asd</div>
+      <SliderSection />
       <Footer />
     </>
   )

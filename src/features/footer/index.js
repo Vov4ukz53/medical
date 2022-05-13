@@ -1,5 +1,5 @@
-import { Footertop } from "./footerTop";
-import { FooterBottom } from "./footerBottom";
+import { Footertop } from "./FooterTop";
+import { FooterBottom } from "./FooterBottom";
 
 export const Footer = () => (
   <footer>

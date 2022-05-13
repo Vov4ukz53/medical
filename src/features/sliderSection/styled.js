@@ -2,6 +2,19 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   position: relative; 
+  margin: 0px 0px 80px 0px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.tabletLandscape}){
+    margin: 0px 0px 40px 0px; 
+  }
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+    padding: 100px 0px 0px 0px;
+  }
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+    margin: 0px 0px 20px 0px; 
+  }
 `;
 
 export const Image = styled.img`

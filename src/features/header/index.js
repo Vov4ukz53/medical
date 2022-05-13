@@ -1,12 +1,10 @@
-import { HeaderTop } from "./headerTop";
-import { HeaderBottom } from "./headerBottom";
+import { StyledHeader } from "./styled";
+import { HeaderTop } from "./HeaderTop";
+import { HeaderBottom } from "./HeaderBottom";
 
-export const Header = () => {
-
-  return (
-    <header>
-      <HeaderTop />
-      <HeaderBottom />
-    </header>
-  )
-};
+export const Header = () => (
+  <StyledHeader>
+    <HeaderTop />
+    <HeaderBottom />
+  </StyledHeader>
+);

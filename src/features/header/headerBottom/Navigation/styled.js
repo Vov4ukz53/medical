@@ -4,7 +4,7 @@ import { AiOutlineClose } from "react-icons/ai"
 
 export const Wrapper = styled.ul`
   position: relative;
-  z-index: 20;
+  z-index: 10;
   display: flex;
   margin: 0px 58px 0px 0px;
   padding: 0px;

@@ -1,4 +1,4 @@
-import { Column, Content, Section } from "./styled";
+import { Column, Content, Item, Section } from "./styled";
 
 export const Benefits = () => {
 
@@ -6,7 +6,9 @@ export const Benefits = () => {
     <Section>
       <Column>
         <Content>
-          <p>nanana</p>
+          <Item>For Physicians and Group Practice:</Item>
+          <Item blue>For Medical Billing Companies/Hospitals:</Item>
+          <Item blue>You Stay in Control:</Item>
         </Content>
       </Column>
       <div>nanana</div>

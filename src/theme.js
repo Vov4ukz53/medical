@@ -1,6 +1,7 @@
 export const theme = {
   colors: {
     white: "#FFFFFF",
+    whiteOpacity: "#ffffffd6",
     antiFlashWhite: "#F3F3F3",
     gray: "#7D7D7D",
     cultured: "#F8F8F8",

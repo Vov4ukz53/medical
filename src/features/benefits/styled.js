@@ -9,6 +9,12 @@ export const Section = styled.section`
 export const Column = styled.div`
   background: url(${Background}) 0 0 no-repeat;
   background-size: cover;
+
+  ${({ right }) => right && css`
+    background: none;
+    padding: 77px 0px 0px 0px;
+    margin: 0px 0px 0px 65px;
+  `}
 `;
 
 export const Content = styled.ul`

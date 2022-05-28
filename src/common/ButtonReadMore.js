@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+export const ButtonReadMore = styled.button`
   font-weight: 700;
   font-size: 12px;
   color: ${({ theme }) => theme.colors.gray};

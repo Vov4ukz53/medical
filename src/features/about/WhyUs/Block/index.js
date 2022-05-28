@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Paragraph, TitleBody, Wrapper } from "./styled";
 import { SubTitle } from "../../../../common/SubTitle";
-import { Button } from "../../../../common/Button";
+import { ButtonReadMore } from "../../../../common/ButtonReadMore";
 
 export const Block = ({ title, icon, text, textMore, next }) => {
   const [more, setMore] = useState(false);
@@ -18,9 +18,9 @@ export const Block = ({ title, icon, text, textMore, next }) => {
         {text}
         <span>{more ? textMore : `…`}</span>
       </Paragraph>
-      <Button onClick={readMore}>
+      <ButtonReadMore onClick={readMore}>
         {!more ? "read more" : "read less"}
-      </Button>
+      </ButtonReadMore>
     </Wrapper>
   )
 };

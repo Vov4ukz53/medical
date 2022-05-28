@@ -13,6 +13,7 @@ export const theme = {
     carnelian: "#B4141B",
     carmine: "#920c12",
     eerieBlack: "#191A1A",
+    spanishGray: "#9B9B9B",
   },
   breakpoints: {
     mobile: "767px",

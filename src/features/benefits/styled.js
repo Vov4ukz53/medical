@@ -4,7 +4,11 @@ import Background from "./background.jpg";
 export const Section = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
-`
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+    display: block;
+  };
+`;
 
 export const Column = styled.div`
   background: url(${Background}) 0 0 no-repeat;
@@ -14,6 +18,11 @@ export const Column = styled.div`
     background: none;
     padding: 77px 0px 0px 0px;
     margin: 0px 0px 0px 65px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.tabletLandscape}){
+      padding: 20px 0px 20px 0px;
+      margin: 0px 0px 0px 45px;
+    }
   `}
 `;
 
@@ -22,6 +31,10 @@ export const Content = styled.ul`
   flex-direction: column;
   margin: 0px;
   padding: 87px 0px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+    padding: 40px 0px;
+  }
 `;
 
 export const Item = styled.li`
@@ -41,4 +54,20 @@ export const Item = styled.li`
     background: ${({ theme }) => theme.colors.celadonBlueOpacity};
     color: ${({ theme }) => theme.colors.white};
   `}
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.tabletLandscape}){
+    padding: 25px;
+    width: 400px;
+    font-size: 18px;
+  }
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+    align-self: flex-start;
+  }
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
 `;

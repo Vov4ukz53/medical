@@ -8,4 +8,8 @@ export const Title = styled.h2`
   @media(max-width: ${({ theme }) => theme.breakpoints.tabletLandscape}){
     font-size: 30px;
   }
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+    font-size: 24px;
+  }
 `;

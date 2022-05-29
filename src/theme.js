@@ -6,7 +6,7 @@ export const theme = {
     gray: "#7D7D7D",
     cultured: "#F8F8F8",
     celadonBlue: "#0E77AF",
-    celadonBlueOpacity:"#0e77afed",
+    celadonBlueOpacity: "#0e77afed",
     darkTangerine: "#FBA518",
     quartz: "#4A4A4A",
     jet: "#363636",
@@ -14,6 +14,7 @@ export const theme = {
     carmine: "#920c12",
     eerieBlack: "#191A1A",
     spanishGray: "#9B9B9B",
+    opacityBlack: "rgba(0, 0, 0, 0.8)"
   },
   breakpoints: {
     mobile: "767px",

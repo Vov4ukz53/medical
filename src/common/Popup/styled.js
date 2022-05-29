@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { AiOutlineClose } from "react-icons/ai"
 
 export const Button = styled.button`

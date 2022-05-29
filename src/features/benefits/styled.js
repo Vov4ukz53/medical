@@ -1,15 +1,6 @@
 import styled, { css } from "styled-components";
 import Background from "./background.jpg";
 
-export const Section = styled.section`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
-    display: block;
-  };
-`;
-
 export const Column = styled.div`
   background: url(${Background}) 0 0 no-repeat;
   background-size: cover;

@@ -2,7 +2,8 @@ import { Popup } from "../../common/Popup";
 import { TitleBlock } from "../../common/TitlleBlock";
 import { List } from "./List";
 import { Modal } from "./Modal";
-import { Column, Content, Item, Section } from "./styled";
+import { Section } from "../../common/Section";
+import { Column, Content, Item } from "./styled";
 
 export const Benefits = () => (
   <Section>

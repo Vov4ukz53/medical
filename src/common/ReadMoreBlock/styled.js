@@ -6,8 +6,12 @@ export const Wrapper = styled.div`
 
   ${({ profiles }) => profiles && css`
     background: none;
-    padding: 0px 35px 0px 0px;
-    margin-top: 65px;
+    padding: 25px 35px 0px 25px;
+    margin-top: 40px; 
+    
+    @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+      margin-top: 0px;
+    }
   `}
 
   ${({ next }) => next && css`
@@ -19,7 +23,7 @@ export const Wrapper = styled.div`
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
-    padding: 15px;
+    padding: 10px;
   }
 `;
 
@@ -33,6 +37,10 @@ export const TitleBody = styled.div`
   ${({ profiles }) => profiles && css`
     padding: 0px 0px 35px 0px;
     border-bottom: 1px solid ${({ theme }) => theme.colors.spanishGray};
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+      padding: 0px 0px 15px 0px;
+    }
   `}
 `;
 
@@ -40,6 +48,10 @@ export const Content = styled.div`
   ${({ profiles }) => profiles && css`
     display: flex;
     margin-top: 30px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.small}){
+      display: block;
+    }
   `}
 `;
 
@@ -49,6 +61,19 @@ export const Image = styled.img`
     width: 160px;
     height: 160px;
     margin: 0px 20px 0px 0px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+      flex: 0 0 120px;
+      width: 120px;
+      height: 120px;
+    }
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.small}){
+      margin: 0px 0px 20px 0px;
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
   `}
 `;
 
@@ -59,6 +84,14 @@ export const Paragraph = styled.p`
 
     @media(max-width: ${({ theme }) => theme.breakpoints.tabletLandscape}){
       max-width: 500px;
+    }
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+      margin: 0px 0px 15px 0px;
+    }
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.small}){
+      margin: 0px 0px 5px 0px;
     }
   `}
 `;

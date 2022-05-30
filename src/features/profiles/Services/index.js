@@ -1,11 +1,11 @@
 import { ReadMoreBlock } from "../../../common/ReadMoreBlock";
 import { TitleBlock } from "../../../common/TitlleBlock";
 import Image1 from "./image1.jpg";
-import { Icon, IconClose } from "./styled";
+import { Wrapper, Icon, IconClose } from "./styled";
 
 export const Services = () => {
   return (
-    <div>
+    <Wrapper>
       <TitleBlock
         title="Our Services"
         subTitle="Our staff extension services include"
@@ -34,6 +34,6 @@ export const Services = () => {
         text="We offer high quality coding and auditing services to hospitals and physicians; services extended for Anesthesia, Radiology, E&M and Surgery coding."
         textMore="Services extended for Anesthesia, Radiology, E&M and Surgery coding."
       />
-    </div>
+    </Wrapper>
   )
 };

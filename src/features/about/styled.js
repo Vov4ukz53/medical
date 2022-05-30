@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
+export const Body = styled.div`
   display: grid;
   grid-template-columns: 65.5% 1fr;
   grid-gap: 50px;

@@ -17,6 +17,7 @@ export const theme = {
     opacityBlack: "rgba(0, 0, 0, 0.8)"
   },
   breakpoints: {
+    small: "576px",
     mobile: "767px",
     desktops: "992px",
     tabletLandscape: "1024px",

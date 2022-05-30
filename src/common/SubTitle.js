@@ -6,7 +6,7 @@ export const SubTitle = styled.h3`
   color: ${({ theme }) => theme.colors.celadonBlue};
   margin: 0px;
 
-  @media(max-width: ${({theme})=> theme.breakpoints.desktops}){
+  @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
     font-size: 20px;
   }
 `;

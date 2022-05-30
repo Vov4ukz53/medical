@@ -4,15 +4,19 @@ import { Footer } from "./features/footer";
 import { About } from "./features/about";
 import { Benefits } from "./features/benefits";
 import { Profiles } from "./features/profiles";
+import { Testimonails } from "./features/testimonails";
 
 function App() {
   return (
     <>
       <Header />
-      <SliderSection />
-      <About />
-      <Benefits />
-      <Profiles />
+      <main>
+        <SliderSection />
+        <About />
+        <Benefits />
+        <Profiles />
+        <Testimonails />
+      </main>
       <Footer />
     </>
   )

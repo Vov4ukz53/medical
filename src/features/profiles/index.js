@@ -1,16 +1,15 @@
 import { Container } from "../../common/Container";
-import { Section } from "../../common/Section";
+import { Wrapper } from "../../common/Wrapper";
 import { Security } from "./Security";
 import { Services } from "./Services";
 
-export const Profiles = () => {
-
-  return (
+export const Profiles = () => (
+  <section>
     <Container>
-      <Section>
+      <Wrapper>
         <Services />
         <Security />
-      </Section>
+      </Wrapper>
     </Container>
-  )
-};
+  </section>
+);

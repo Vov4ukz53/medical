@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const SubTitle = styled.h3`
   font-size: 24px;
@@ -14,4 +14,8 @@ export const SubTitle = styled.h3`
   @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
     font-size: 18px;
   }
+
+  ${({ white }) => white && css`
+    color: ${({ theme }) => theme.colors.white};
+  `}
 `;

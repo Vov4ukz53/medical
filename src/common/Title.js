@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Title = styled.h2`
   font-weight: 700;
@@ -12,4 +12,8 @@ export const Title = styled.h2`
   @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
     font-size: 24px;
   }
+
+  ${({ white }) => white && css`
+    color: ${({ theme }) => theme.colors.white};
+  `}
 `;

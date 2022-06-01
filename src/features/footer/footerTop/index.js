@@ -25,19 +25,21 @@ export const Footertop = () => {
           </div>
           <Block>
             <Title>Quick Links</Title>
-            <List>
-              {links.map((item, index) => (
-                <Item key={index}>
-                  <Link href="" alt="">
-                    {item}
-                  </Link>
-                </Item>
-              ))}
-            </List>
+            <nav>
+              <List>
+                {links.map((item, index) => (
+                  <Item key={index}>
+                    <Link href="" alt="">
+                      {item}
+                    </Link>
+                  </Item>
+                ))}
+              </List>
+            </nav>
           </Block>
           <Block>
             <Title>Stay Connected</Title>
-            <SocialNetworks footerTop/>
+            <SocialNetworks footerTop />
           </Block>
         </Content>
       </Container>

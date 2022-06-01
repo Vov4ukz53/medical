@@ -3,7 +3,17 @@ import { Paragraph, TitleBody, Wrapper, Content, Image } from "./styled";
 import { SubTitle } from "../SubTitle";
 import { ButtonReadMore } from "../ButtonReadMore";
 
-export const ReadMoreBlock = ({ title, icon, iconClose, text, textMore, next, profiles, image, whyUs }) => {
+export const ReadMoreBlock = ({
+  title,
+  icon,
+  iconClose,
+  text,
+  textMore,
+  next,
+  profiles,
+  image,
+  whyUs,
+  contactUs }) => {
   const [more, setMore] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -11,7 +21,11 @@ export const ReadMoreBlock = ({ title, icon, iconClose, text, textMore, next, pr
   const readMore = () => setMore(!more);
 
   return (
-    <Wrapper next={next} profiles={profiles}>
+    <Wrapper
+      next={next}
+      profiles={profiles}
+      contactUs={contactUs}
+    >
       <TitleBody
         profiles={profiles}
         onClick={openMore}
@@ -20,8 +34,14 @@ export const ReadMoreBlock = ({ title, icon, iconClose, text, textMore, next, pr
         {open ? icon : iconClose}
       </TitleBody>
       {
-        (profiles && whyUs && !open) || whyUs && <Content profiles={profiles}>
-          <Image profiles={profiles} src={image} alt="" />
+        ((whyUs && profiles && open) || (whyUs && !profiles) || contactUs) &&
+        <Content profiles={profiles}>
+          <Image
+            profiles={profiles}
+            contactUs={contactUs}
+            src={image}
+            alt=""
+          />
           <div>
             <Paragraph whyUs={whyUs}>
               {text}

@@ -14,6 +14,11 @@ export const Wrapper = styled.div`
     }
   `}
 
+  ${({ contactUs }) => contactUs && css`
+    padding: 0px;
+    background: none;
+  `}
+
   ${({ next }) => next && css`
     background: ${({ theme }) => theme.colors.cultured};
   `}
@@ -62,6 +67,10 @@ export const Image = styled.img`
     height: 160px;
     margin: 0px 20px 0px 0px;
 
+    ${({ contactUs }) => contactUs && css`
+      display: none;
+    `}
+
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
       flex: 0 0 120px;
       width: 120px;
@@ -77,7 +86,7 @@ export const Image = styled.img`
   `}
 `;
 
-export const Paragraph = styled.p`
+export const Paragraph = styled.div`
   ${({ whyUs }) => whyUs && css`
     line-height: 25px;
     margin: 17px 0px 20px 0px;

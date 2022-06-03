@@ -36,7 +36,7 @@ export const Promises = () => (
           </>
         }
         textMore={
-          <Paragraph inline>Accelerated cash flows with effective management of denials.</Paragraph>
+          <Paragraph>Accelerated cash flows with effective management of denials.</Paragraph>
         }
       />
     </Item>

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
 
@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
 
 export const Item = styled.div`
   margin: 0px 0px 30px 0px;
+
+  ${({ first }) => first && css`
+    margin-top: 50px;
+  `}
 `;
 
 export const Paragraph = styled.p`

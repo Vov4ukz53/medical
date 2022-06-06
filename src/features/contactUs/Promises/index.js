@@ -4,7 +4,7 @@ import { Wrapper, Item, Paragraph } from "./styled";
 
 export const Promises = () => (
   <Wrapper>
-    <Item>
+    <Item first>
       <TitleBlock
         title="For Physicians"
         subTitle="Our Promise"

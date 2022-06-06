@@ -1,26 +1,6 @@
 import styled from "styled-components";
 import { AiOutlineClose } from "react-icons/ai"
 
-export const Button = styled.button`
-  cursor: pointer;
-  width: 105px;
-  font-size: 12px;
-  font-weight: 700;
-  border: none;
-  display: flex;
-  justify-content: center;
-  width: 105px;
-  padding: 13px 0px;
-  background: ${({ theme }) => theme.colors.carnelian};
-  transition: background .3s;
-  text-transform: uppercase;
-  color: ${({ theme }) => theme.colors.white};
-
-  &:hover{
-    background: ${({ theme }) => theme.colors.carmine};
-  }
-`;
-
 export const Background = styled.div`
   width: 100%;
   height: 100%;

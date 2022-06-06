@@ -1,7 +1,8 @@
 import { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 import { Container } from "../../common/Container";
-import { Button, Background, ModalWrapper, CloseModalButton } from "./styled";
+import { Background, ModalWrapper, CloseModalButton } from "./styled";
+import { ButtonRed } from "../ButtonRed";
 
 export const Popup = ({ button, content }) => {
   const [showPopup, setShowPopup] = useState(false);
@@ -27,9 +28,9 @@ export const Popup = ({ button, content }) => {
 
   return (
     <>
-      <Button onClick={openPopup}>
+      <ButtonRed onClick={openPopup}>
         {button}
-      </Button >
+      </ButtonRed >
       {showPopup ? (
         <Background ref={popupRef} onClick={closePopup}>
           <Container>

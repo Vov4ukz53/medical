@@ -4,17 +4,17 @@ import "slick-carousel/slick/slick-theme.css";
 import { settings } from "./settings";
 import { sliderList } from "./sliderList";
 import {
-  Wrapper,
   Image,
   Content,
   SubTitle,
   Title,
   Info,
-  Link
+  Link,
+  Section
 } from "./styled";
 
 export const SliderSection = () => (
-  <Wrapper>
+  <Section>
     <Slider {...settings}>
       {sliderList.map((item, index) => {
         return (
@@ -34,5 +34,5 @@ export const SliderSection = () => (
         )
       })}
     </Slider>
-  </Wrapper>
+  </Section>
 );

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
+export const Section = styled.section`
   position: relative; 
   margin: 0px 0px 80px 0px;
 

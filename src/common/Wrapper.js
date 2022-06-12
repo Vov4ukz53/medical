@@ -22,8 +22,12 @@ export const Wrapper = styled.div`
       margin: 0px;
     };
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
       margin: 0px;
     };
+  `}
+
+  ${({ contuctUs }) => contuctUs && css`
+    margin: 0px;
   `}
 `;

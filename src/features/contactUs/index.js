@@ -7,7 +7,7 @@ import { Form } from "./Form";
 export const ContactUs = () => (
   <Section>
     <Container>
-      <Wrapper>
+      <Wrapper contuctUs>
         <Promises />
         <Form />
       </Wrapper>

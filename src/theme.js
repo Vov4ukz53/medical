@@ -22,5 +22,6 @@ export const theme = {
     mobile: "767px",
     desktops: "992px",
     tabletLandscape: "1024px",
+    extraLarge: "1200px"
   },
 };

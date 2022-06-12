@@ -4,8 +4,12 @@ export const Wrapper = styled.div`
   padding: 208px 0px 127px 0px;
   background: ${({ theme }) => theme.colors.quartz};
 
+  @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+    padding: 40px 0px 30px 0px;
+  }
+
   @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
-    padding: 100px 0px 50px 0px;
+    padding: 30px 0px 20px 0px;
   }
 `;
 

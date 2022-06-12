@@ -17,6 +17,10 @@ export const Wrapper = styled.div`
   ${({ contactUs }) => contactUs && css`
     padding: 0px;
     background: none;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
+      text-align: center;
+    }
   `}
 
   ${({ next }) => next && css`

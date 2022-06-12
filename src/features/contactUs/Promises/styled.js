@@ -10,6 +10,10 @@ export const Item = styled.div`
   ${({ first }) => first && css`
     margin-top: 50px;
   `}
+
+  @media(max-width: ${({theme})=> theme.breakpoints.desktops}){
+    text-align: center;
+  }
 `;
 
 export const Paragraph = styled.p`

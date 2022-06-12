@@ -4,6 +4,8 @@ export const theme = {
     whiteOpacity: "#ffffffd6",
     antiFlashWhite: "#F3F3F3",
     gray: "#7D7D7D",
+    graniteGray: "#5F5F5F",
+    dimGray: "#6C6C6C",
     platinum: "#E2E2E2",
     cultured: "#F8F8F8",
     celadonBlue: "#0E77AF",

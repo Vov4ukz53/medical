@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medical/static/css/main.4ea13833.css",
-    "main.js": "/medical/static/js/main.2e7f4e8e.js",
+    "main.js": "/medical/static/js/main.78085b99.js",
     "static/js/787.5352c3a1.chunk.js": "/medical/static/js/787.5352c3a1.chunk.js",
     "static/media/background.jpg": "/medical/static/media/background.ad8bb1a40e4b4590847e.jpg",
     "static/media/medical.jpg": "/medical/static/media/medical.a2b70b039590bf54b078.jpg",
@@ -21,14 +21,17 @@
     "static/media/mobileIcon.svg": "/medical/static/media/mobileIcon.3954032dba8e67d7884c96094661f609.svg",
     "static/media/twitter.svg": "/medical/static/media/twitter.1e27ac2a11e0a08584ce74d43ef9379a.svg",
     "index.html": "/medical/index.html",
+    "static/media/phone.svg": "/medical/static/media/phone.753236013f9a14ae87a7145cdf764052.svg",
     "static/media/linkedin.svg": "/medical/static/media/linkedin.cf1e056592631b67cd47de522c7bc360.svg",
+    "static/media/email.svg": "/medical/static/media/email.05a9fcd924b07adeaa98ad5a7e61882b.svg",
+    "static/media/location.svg": "/medical/static/media/location.8a3429806390005043d578db4bd6f79a.svg",
     "static/media/facebook.svg": "/medical/static/media/facebook.dece10ba5f599da183c0a6dcabdfe879.svg",
     "main.4ea13833.css.map": "/medical/static/css/main.4ea13833.css.map",
-    "main.2e7f4e8e.js.map": "/medical/static/js/main.2e7f4e8e.js.map",
+    "main.78085b99.js.map": "/medical/static/js/main.78085b99.js.map",
     "787.5352c3a1.chunk.js.map": "/medical/static/js/787.5352c3a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ea13833.css",
-    "static/js/main.2e7f4e8e.js"
+    "static/js/main.78085b99.js"
   ]
 }

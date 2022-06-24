@@ -1,10 +1,34 @@
 export const menuList = [
-  "home",
-  "about us",
-  "servises",
-  "why us?",
-  "security",
-  "case studies",
-  "faq’s",
-  "contact us"
+  {
+    title: "home",
+    href: "#",
+  },
+  {
+    title: "aboutUs",
+    href: "#aboutUs",
+  },
+  {
+    title: "services",
+    href: "#services",
+  },
+  {
+    title: "why us",
+    href: "#whyUs",
+  },
+  {
+    title: "security",
+    href: "#security",
+  },
+  {
+    title: "case studies",
+    href: "#caseStudies",
+  },
+  {
+    title: "faq’s",
+    href: "#faq’s",
+  },
+  {
+    title: "contact us",
+    href: "#contactUs",
+  },
 ];

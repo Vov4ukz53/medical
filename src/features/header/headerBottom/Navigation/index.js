@@ -13,7 +13,10 @@ export const Navigation = () => {
           {
             menuList.map((item, index) => {
               return (
-                <Item key={index}>
+                <Item
+                  key={index}
+                  onClick={() => setOpen(!open)}
+                >
                   <Link href={item.href} alt="">
                     {item.title}
                   </Link>

@@ -14,7 +14,7 @@ export const SocialNetworks = ({ footerTop }) => {
   ];
 
   return (
-    <Wrapper >
+    <Wrapper big={footerTop}>
       {
         socialNetworksList.map((item, index) => {
           return (

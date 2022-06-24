@@ -7,6 +7,10 @@ export const Wrapper = styled.ul`
   display: inline-flex;
   margin: 0px;
   padding: 0px 20px 0px 0px;
+
+  ${({ big }) => big && css`
+    padding: 0px;
+  `}
 `;
 
 export const Item = styled.li`

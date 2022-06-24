@@ -26,7 +26,7 @@ export const SliderSection = () => (
               <Info>
                 {item.info}
               </Info>
-              <Link href="http://google.com" alt="">
+              <Link href="#contactUs" alt="">
                 {item.linkText}
               </Link>
             </Content>

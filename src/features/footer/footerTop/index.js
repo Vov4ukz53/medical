@@ -29,8 +29,8 @@ export const Footertop = () => {
               <List>
                 {links.map((item, index) => (
                   <Item key={index}>
-                    <Link href="" alt="">
-                      {item}
+                    <Link href={item.href} alt="">
+                      {item.title}
                     </Link>
                   </Item>
                 ))}

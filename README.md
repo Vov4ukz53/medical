@@ -5,7 +5,7 @@
 Here you can see my [demo](https://vov4ukz53.github.io/medical/)
 
 ## How to use
-![how to use](https://ibb.co/qgJTMR9)
+![how to use](https://i.ibb.co/LgNVzC6/medical.gif)
 
 ## Used Technologies:
 - HTML5

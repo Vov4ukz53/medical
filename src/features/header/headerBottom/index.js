@@ -8,7 +8,7 @@ export const HeaderBottom = () => {
     <Wrapper>
       <Container>
         <Content>
-          <Link href="" alt="">
+          <Link href="#slider" alt="">
             <LogoIcon />
           </Link>
           <Navigation />

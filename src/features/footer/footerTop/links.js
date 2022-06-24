@@ -1,7 +1,22 @@
 export const links = [
-  "What Do We Offer?",
-  "Coding Services",
-  "FAQ’s",
-  "Security",
-  "Contact Us"
+  {
+    title: "What Do We Offer?",
+    href: "#doOffer"
+  },
+  {
+    title: "Coding Services",
+    href: "#services"
+  },
+  {
+    title: "FAQ’s",
+    href: "#faq’s"
+  },
+  {
+    title: "Security",
+    href: "#security"
+  },
+  {
+    title: "Contact Us",
+    href: "#contactUs"
+  },
 ];

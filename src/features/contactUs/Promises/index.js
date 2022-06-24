@@ -3,7 +3,7 @@ import { TitleBlock } from "../../../common/TitlleBlock";
 import { Wrapper, Item, Paragraph } from "./styled";
 
 export const Promises = () => (
-  <Wrapper>
+  <Wrapper id="doOffer">
     <Item first>
       <TitleBlock
         title="For Physicians"

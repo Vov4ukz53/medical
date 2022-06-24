@@ -12,7 +12,7 @@ import {
 } from "./styled";
 
 export const Testimonails = () => (
-  <Section>
+  <Section id="faq’s">
     <Container>
       <Wrapper testimonails>
         <Column>

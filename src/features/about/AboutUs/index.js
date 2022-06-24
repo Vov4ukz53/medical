@@ -7,7 +7,7 @@ import {
 } from "./styled";
 
 export const AboutUs = () => (
-  <div>
+  <div id="aboutUs">
     <Title>About Us</Title>
     <ImageBody>
       <Image src={Medical} alt="" />

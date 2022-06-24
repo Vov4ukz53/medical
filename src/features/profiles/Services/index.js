@@ -5,7 +5,7 @@ import { Wrapper, Icon, IconClose } from "./styled";
 
 export const Services = () => {
   return (
-    <Wrapper>
+    <Wrapper id="services">
       <TitleBlock
         title="Our Services"
         subTitle="Our staff extension services include"

@@ -6,7 +6,7 @@ import { ReactComponent as Icon2 } from "./icons/icon2.svg";
 import { ReactComponent as Icon3 } from "./icons/icon3.svg";
 
 export const WhyUs = () => (
-  <div>
+  <div id="whyUs">
     <Title>Why Us?</Title>
     <Content>
       <ReadMoreBlock whyUs

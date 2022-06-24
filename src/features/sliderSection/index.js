@@ -14,7 +14,7 @@ import {
 } from "./styled";
 
 export const SliderSection = () => (
-  <Section>
+  <Section id="slider">
     <Slider {...settings}>
       {sliderList.map((item, index) => {
         return (

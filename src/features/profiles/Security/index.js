@@ -5,7 +5,7 @@ import { Modal } from "./Modal";
 
 export const Security = () => {
   return (
-    <Wrapper>
+    <Wrapper id="security">
       <TitleBlock
         title="Security"
         subTitle="POLI Compliance"

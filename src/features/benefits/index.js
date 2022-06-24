@@ -6,7 +6,7 @@ import { Wrapper } from "../../common/Wrapper";
 import { Column, Content, Item } from "./styled";
 
 export const Benefits = () => (
-  <section>
+  <section id="caseStudies">
     <Wrapper>
       <Column>
         <Content>

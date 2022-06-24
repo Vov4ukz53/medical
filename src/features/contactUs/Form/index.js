@@ -3,7 +3,7 @@ import { ButtonRed } from "../../../common/ButtonRed";
 import { Wrapper, StyledForm, Input } from "./styled";
 
 export const Form = () => (
-  <Wrapper>
+  <Wrapper id="contactUs">
     <Title>Appointment Form</Title>
     <StyledForm>
       <Input name="name" type="text" required placeholder="First Name*" />

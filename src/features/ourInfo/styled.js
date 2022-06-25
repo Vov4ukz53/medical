@@ -41,6 +41,11 @@ export const Link = styled.a`
   color: inherit;
   text-decoration: none;
   margin: 0px 0px 0px 50px;
+  transition: color .3s;
+
+  &:hover{
+    color: ${({ theme }) => theme.colors.darkTangerine};
+  }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.desktops}){
     margin: 0px 0px 0px 20px;

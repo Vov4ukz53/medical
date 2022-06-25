@@ -77,7 +77,7 @@ export const Link = styled.a`
   font-size: 14px;
 
   &:hover{
-    color: ${({ theme }) => theme.colors.darkTangerine}
+    color: ${({ theme }) => theme.colors.darkTangerine};
   }
 `;
 

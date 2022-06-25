@@ -108,4 +108,10 @@ export const Link = styled.a`
     width: 200px;
     font-size: 22px;
   }
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobile}){
+    padding: 10px 0px;
+    width: 150px;
+    font-size: 20px;
+  }
 `;
